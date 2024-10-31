@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import Category from "./components/category"
+import Category from "./components/Category"
 
 import Middle from "./components/Middle"
 import Cards from "./components/Cards"
