@@ -5,7 +5,7 @@ import Middle from "./components/Middle"
 import Cards from "./components/Cards"
 import Delivery from "./components/Delevary"
 import Fotter from "./components/Fotter"
-import Belowfotter from "./components/belowfotter"
+import Belowfotter from "./components/Belowfotter"
 
 
 
