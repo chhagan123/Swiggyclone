@@ -14,7 +14,7 @@ function Cards (props,){
       
       <div className="w-[278px] shrink-0 grow  ">
       <div   className=" group rounded-[15px]   h-[182px] overflow-hidden  relative">
-                              <img src={`/Middle_image/`+props.image}  className=" group-hover:scale-110 duration-200 object-cover w-full h-full "/>
+                              <img src={`./Middle_image/`+props.image}  className=" group-hover:scale-110 duration-200 object-cover w-full h-full "/>
                             <div className="image-overlay absolute top-0  w-full  h-full text-[25px] flex font-bold items-end text-white pl-2 tacking-titer ">
                                      {props.offer}
                             </div>

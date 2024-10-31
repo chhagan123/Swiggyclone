@@ -17,6 +17,7 @@ function category () {
     }
    
     const [category,setcategory] = useState([]);
+        
 
    
     useEffect(() => {
@@ -24,7 +25,7 @@ function category () {
         const fetchData = async () => {
             const data = [
 
-                 { "image": "North_Indian_4.jpeg", "path": "pizza" },
+                 { "image": "North_Indian_4.jpeg", "path": "North-indian" },
                 { "image": "Pizza.jpeg", "path": "pizza" },
                 { "image": "Noodles.jpeg", "path": "noodles" },
                 { "image": "Pasta.jpeg", "path": "pasta" },
@@ -51,6 +52,7 @@ function category () {
         fetchData();
     }, []); 
 
+    console.log(category);
     return(
         
         
@@ -70,13 +72,17 @@ function category () {
                   
                    return (
                     <div style={{ transform:`translate(-${slide * 100}%)`}} key={index} className="w-[150px] gap-5 shrink-0  duration-500  flex flex-col items-center   text-black">
-                        <img src={`/images/${cat.image}`} alt= {cat.path}className="gap-2" />
+                        <img src={`./images/${cat.image}`} alt={cat.path} className="gap-2" />
+
                         
                        
                          
                     </div>
+                
                 )
                })}
+               
+            
         </div>
         <div className="my-6 border-[1px]">
 

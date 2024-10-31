@@ -6,6 +6,7 @@ import { TbBasketDiscount } from "react-icons/tb";
 import { MdHelpCenter } from "react-icons/md";
 import { CiShoppingCart } from "react-icons/ci";
 import { BsFillSignIntersectionFill } from "react-icons/bs";
+ 
 
 function Navbar() {
     const [toggle, setToggle] = useState(false);
@@ -46,7 +47,10 @@ function Navbar() {
             <header className='p-[15px] shadow-xl z-10 relative sticky top-0 bg-white z-[999] '>
                 <div className='max-w-[1200px] h-[50px] mx-auto flex'>
                     <div className='w-[90px]'>
-                        <img src="images/logo.png" className='w-full' alt="Logo" />
+                    <img src="./images/logo.png" className='w-full' alt="Logo" />
+
+
+
                     </div>
                     <div className='m-[10px]'>
                         <span className='font-bold border-b-[3px] underline'>Maharashtra,</span> Nagpur, Maharashtra, India

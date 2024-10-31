@@ -19,6 +19,7 @@ import Cards from "./Cards";
   }
 
     const [webdata,setwebdata] = useState([])
+    console.log(webdata);
 
     useEffect(() => {
         const renderdata = async () => {
